@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grupo de INCO</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #dce9f5;
+            font-family: Arial, sans-serif;
+        }
+
+        .pagina {
+            width: 95%;
+            margin: 45px auto 20px;
+            border: 6px solid #3d6fc4;
+            background-color: #dce9f5;
+            min-height: 440px;
+            box-sizing: border-box;
+            position: relative;
+            padding: 0 20px 20px;
+        }
+
+        .titulo {
+            position: absolute;
+            top: -35px;
+            left: -6px;
+            background-color: black;
+            color: white;
+            padding: 9px 15px;
+            border-radius: 0 7px 7px 0;
+            font-size: 14px;
+        }
+
+        .logos {
+            text-align: center;
+            margin-top: 0;
+        }
+
+        .logos img {
+            width: 90px;
+            height: 90px;
+            object-fit: contain;
+            background-color: white;
+            margin: 0 0;
+        }
+
+        .materia {
+            width: 520px;
+            max-width: 90%;
+            margin: 8px auto;
+            background-color: #555;
+            color: white;
+            border: 2px solid black;
+            padding: 5px;
+            text-align: center;
+            font-size: 15px;
+            font-weight: bold;
+        }
+
+        .eslogan {
+            font-weight: normal;
+            display: block;
+        }
+
+        .integrantes {
+            display: flex;
+            justify-content: center;
+            gap: 35px;
+            margin-top: 5px;
+            flex-wrap: wrap;
+        }
+
+        .persona {
+            width: 115px;
+        }
+
+        .foto {
+            width: 90px;
+            height: 90px;
+            border: 3px solid #4675bd;
+            object-fit: cover;
+            display: block;
+            margin: auto;
+        }
+
+        .nombre {
+            background-color: white;
+            border: 1px solid #555;
+            text-align: center;
+            padding: 8px 3px;
+            margin-top: 0;
+            font-size: 13px;
+        }
+
+        .datos {
+            background-color: white;
+            border: 1px solid #555;
+            margin-top: 6px;
+            padding: 8px 10px;
+            min-height: 125px;
+            font-size: 13px;
+            line-height: 30px;
+        }
+
+        .dato {
+            display: block;
+        }
+
+        @media (max-width: 700px) {
+            .pagina {
+                width: 95%;
+            }
+
+            .materia {
+                width: 90%;
+            }
+
+            .integrantes {
+                gap: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="pagina">
+
+        <div class="titulo">
+            Grupo de INCO AÑO 2026/2027
+        </div>
+
+        <!-- LOGOS -->
+        <div class="logos">
+            <!-- Cambia logo1.png y logo2.png por tus imágenes -->
+            <img src="logo1.png" alt="Logo institucional">
+            <img src="logo2.png" alt="Logo institucional">
+        </div>
+
+        <!-- MATERIA Y ESLOGAN -->
+        <div class="materia">
+            DESARROLLO DE APLICACIONES Y SISTEMAS DE INFORMACIÓN
+            <span class="eslogan">
+                “Informática y Comunicaciones, la nueva tendencia en el ámbito laboral de la humanidad”
+            </span>
+        </div>
+
+        <!-- INTEGRANTES -->
+        <div class="integrantes">
+
+            <!-- PERSONA 1 -->
+            <div class="persona">
+                <img class="foto" src="persona1.jpg" alt="María González">
+
+                <div class="nombre">
+                    Jose Daniel
+                </div>
+
+                <div class="datos">
+                    <span class="dato">Edad: 15</span>
+                    <span class="dato">Curso: 4to de informatica</span>
+                    <span class="dato">Materia: INCO</span>
+                    <span class="dato">Teléfono: 829-935-9567</span>
+                    <span class="dato">Dirección: Santiago</span>
+                </div>
+            </div>
+
+
+            <!-- PERSONA 2 -->
+            <div class="persona">
+                <img class="foto" src="persona2.jpg" alt="Marcos Rubio">
+
+                <div class="nombre">
+                    Steven
+                </div>
+
+                <div class="datos">
+                    <span class="dato">Edad: 15</span>
+                    <span class="dato">Curso: 4to de informatica</span>
+                    <span class="dato">Materia: INCO</span>
+                    <span class="dato">Teléfono: 829-478-2134</span>
+                    <span class="dato">Dirección: Santiago</span>
+                </div>
+            </div>
+
+
+            <!-- PERSONA 3 -->
+            <div class="persona">
+                <img class="foto" src="persona3.jpg" alt="Carla Gómez">
+
+                <div class="nombre">
+                    Carla Gómez
+                </div>
+
+                <div class="datos">
+                    <span class="dato">Edad: 16</span>
+                    <span class="dato">Curso: 4to</span>
+                    <span class="dato">Materia: INCO</span>
+                    <span class="dato">Teléfono: 000-000-0000</span>
+                    <span class="dato">Dirección: Puerto Plata</span>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
